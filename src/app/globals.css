@@ -15,6 +15,9 @@ a{
   color: inherit;
 }
 
+.theme{
+  transition: 1s all ease ;
+}
 .container{
   max-width: 1366px;
   min-height: 100vh;
@@ -23,4 +26,14 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: black;
+  color: white;
 }
