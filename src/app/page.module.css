@@ -40,4 +40,14 @@
     border: none;
     border-radius: 5px;
     object-fit: cover;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px) scale(1.03);
+    }
 }
